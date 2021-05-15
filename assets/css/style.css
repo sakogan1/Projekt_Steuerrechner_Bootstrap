@@ -1,0 +1,80 @@
+body{
+    min-height:100vh ;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-image: url("https://images.unsplash.com/photo-1600584805225-3e5071b8173c");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main{
+    width: 350px;
+    background-color: lightcyan;
+    color: #222222;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    -webkit-box-shadow: 18px 0px 10px 2px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 18px 0px 10px 2px rgba(34, 60, 80, 0.2);
+    box-shadow: 18px 0px 10px 2px rgba(34, 60, 80, 0.2);
+}
+.zvE{
+    width: 350px;
+}
+.form-control{
+    text-align: right;
+}
+.modal-dialog{
+    -webkit-box-shadow: 18px 0px 10px 2px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 18px 0px 10px 2px rgba(34, 60, 80, 0.2);
+    box-shadow: 18px 0px 10px 2px rgba(34, 60, 80, 0.2);
+}
+.bild1{
+width: 350px;
+height: 30vh;
+background-image: url("https://images.unsplash.com/photo-1591453090413-b75870e53836");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+border-radius: 25px;
+-webkit-box-shadow: 18px 0px 10px 2px rgba(34, 60, 80, 0.2);
+-moz-box-shadow: 18px 0px 10px 2px rgba(34, 60, 80, 0.2);
+box-shadow: 18px 0px 10px 2px rgba(34, 60, 80, 0.2);
+}
+.bild2{
+    width: 350px;
+    height: 30vh;
+    background-image: url("https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+    -webkit-box-shadow: 18px 0px 10px 2px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 18px 0px 10px 2px rgba(34, 60, 80, 0.2);
+    box-shadow: 18px 0px 10px 2px rgba(34, 60, 80, 0.2);
+}
+a{
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    transition: all 2s ease-in-out;   
+}
+a:hover{
+    text-decoration: none;
+    text-align: center;
+    color: #222222;
+    transform: perspective(100px);
+}
+main a:hover{
+ 
+        text-decoration: none;
+        font-size: 1.3rem;
+        color:#222222;
+        transform: scale(2,2);
+ 
+}
